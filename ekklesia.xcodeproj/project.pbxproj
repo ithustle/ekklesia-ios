@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		99B1CF332CA46E7B009BFD3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99B1CF1A2CA46E79009BFD3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99B1CF212CA46E79009BFD3E;
+			remoteInfo = ekklesia;
+		};
+		99B1CF3D2CA46E7B009BFD3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99B1CF1A2CA46E79009BFD3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99B1CF212CA46E79009BFD3E;
+			remoteInfo = ekklesia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99B1CF222CA46E79009BFD3E /* ekklesia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ekklesia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B1CF322CA46E7B009BFD3E /* ekklesiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ekklesiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B1CF3C2CA46E7B009BFD3E /* ekklesiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ekklesiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		99B1CF242CA46E79009BFD3E /* ekklesia */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ekklesia;
+			sourceTree = "<group>";
+		};
+		99B1CF352CA46E7B009BFD3E /* ekklesiaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ekklesiaTests;
+			sourceTree = "<group>";
+		};
+		99B1CF3F2CA46E7B009BFD3E /* ekklesiaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ekklesiaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99B1CF1F2CA46E79009BFD3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B1CF2F2CA46E7B009BFD3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B1CF392CA46E7B009BFD3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99B1CF192CA46E79009BFD3E = {
+			isa = PBXGroup;
+			children = (
+				99B1CF242CA46E79009BFD3E /* ekklesia */,
+				99B1CF352CA46E7B009BFD3E /* ekklesiaTests */,
+				99B1CF3F2CA46E7B009BFD3E /* ekklesiaUITests */,
+				99B1CF232CA46E79009BFD3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99B1CF232CA46E79009BFD3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99B1CF222CA46E79009BFD3E /* ekklesia.app */,
+				99B1CF322CA46E7B009BFD3E /* ekklesiaTests.xctest */,
+				99B1CF3C2CA46E7B009BFD3E /* ekklesiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99B1CF212CA46E79009BFD3E /* ekklesia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99B1CF462CA46E7B009BFD3E /* Build configuration list for PBXNativeTarget "ekklesia" */;
+			buildPhases = (
+				99B1CF1E2CA46E79009BFD3E /* Sources */,
+				99B1CF1F2CA46E79009BFD3E /* Frameworks */,
+				99B1CF202CA46E79009BFD3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				99B1CF242CA46E79009BFD3E /* ekklesia */,
+			);
+			name = ekklesia;
+			packageProductDependencies = (
+			);
+			productName = ekklesia;
+			productReference = 99B1CF222CA46E79009BFD3E /* ekklesia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99B1CF312CA46E7B009BFD3E /* ekklesiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99B1CF492CA46E7B009BFD3E /* Build configuration list for PBXNativeTarget "ekklesiaTests" */;
+			buildPhases = (
+				99B1CF2E2CA46E7B009BFD3E /* Sources */,
+				99B1CF2F2CA46E7B009BFD3E /* Frameworks */,
+				99B1CF302CA46E7B009BFD3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99B1CF342CA46E7B009BFD3E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				99B1CF352CA46E7B009BFD3E /* ekklesiaTests */,
+			);
+			name = ekklesiaTests;
+			packageProductDependencies = (
+			);
+			productName = ekklesiaTests;
+			productReference = 99B1CF322CA46E7B009BFD3E /* ekklesiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99B1CF3B2CA46E7B009BFD3E /* ekklesiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99B1CF4C2CA46E7B009BFD3E /* Build configuration list for PBXNativeTarget "ekklesiaUITests" */;
+			buildPhases = (
+				99B1CF382CA46E7B009BFD3E /* Sources */,
+				99B1CF392CA46E7B009BFD3E /* Frameworks */,
+				99B1CF3A2CA46E7B009BFD3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99B1CF3E2CA46E7B009BFD3E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				99B1CF3F2CA46E7B009BFD3E /* ekklesiaUITests */,
+			);
+			name = ekklesiaUITests;
+			packageProductDependencies = (
+			);
+			productName = ekklesiaUITests;
+			productReference = 99B1CF3C2CA46E7B009BFD3E /* ekklesiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99B1CF1A2CA46E79009BFD3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					99B1CF212CA46E79009BFD3E = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					99B1CF312CA46E7B009BFD3E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 99B1CF212CA46E79009BFD3E;
+					};
+					99B1CF3B2CA46E7B009BFD3E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 99B1CF212CA46E79009BFD3E;
+					};
+				};
+			};
+			buildConfigurationList = 99B1CF1D2CA46E79009BFD3E /* Build configuration list for PBXProject "ekklesia" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99B1CF192CA46E79009BFD3E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 99B1CF232CA46E79009BFD3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99B1CF212CA46E79009BFD3E /* ekklesia */,
+				99B1CF312CA46E7B009BFD3E /* ekklesiaTests */,
+				99B1CF3B2CA46E7B009BFD3E /* ekklesiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99B1CF202CA46E79009BFD3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B1CF302CA46E7B009BFD3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B1CF3A2CA46E7B009BFD3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99B1CF1E2CA46E79009BFD3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B1CF2E2CA46E7B009BFD3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B1CF382CA46E7B009BFD3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99B1CF342CA46E7B009BFD3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99B1CF212CA46E79009BFD3E /* ekklesia */;
+			targetProxy = 99B1CF332CA46E7B009BFD3E /* PBXContainerItemProxy */;
+		};
+		99B1CF3E2CA46E7B009BFD3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99B1CF212CA46E79009BFD3E /* ekklesia */;
+			targetProxy = 99B1CF3D2CA46E7B009BFD3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		99B1CF442CA46E7B009BFD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99B1CF452CA46E7B009BFD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99B1CF472CA46E7B009BFD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ekklesia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toquemedia.ekklesia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99B1CF482CA46E7B009BFD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ekklesia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toquemedia.ekklesia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99B1CF4A2CA46E7B009BFD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toquemedia.ekklesiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ekklesia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ekklesia";
+			};
+			name = Debug;
+		};
+		99B1CF4B2CA46E7B009BFD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toquemedia.ekklesiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ekklesia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ekklesia";
+			};
+			name = Release;
+		};
+		99B1CF4D2CA46E7B009BFD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toquemedia.ekklesiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ekklesia;
+			};
+			name = Debug;
+		};
+		99B1CF4E2CA46E7B009BFD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toquemedia.ekklesiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ekklesia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99B1CF1D2CA46E79009BFD3E /* Build configuration list for PBXProject "ekklesia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B1CF442CA46E7B009BFD3E /* Debug */,
+				99B1CF452CA46E7B009BFD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99B1CF462CA46E7B009BFD3E /* Build configuration list for PBXNativeTarget "ekklesia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B1CF472CA46E7B009BFD3E /* Debug */,
+				99B1CF482CA46E7B009BFD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99B1CF492CA46E7B009BFD3E /* Build configuration list for PBXNativeTarget "ekklesiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B1CF4A2CA46E7B009BFD3E /* Debug */,
+				99B1CF4B2CA46E7B009BFD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99B1CF4C2CA46E7B009BFD3E /* Build configuration list for PBXNativeTarget "ekklesiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B1CF4D2CA46E7B009BFD3E /* Debug */,
+				99B1CF4E2CA46E7B009BFD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99B1CF1A2CA46E79009BFD3E /* Project object */;
+}
