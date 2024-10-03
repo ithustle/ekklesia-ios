@@ -11,7 +11,18 @@ import SwiftUI
 struct ekklesiaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                HomeView()
+                    .tabItem {
+                        Symbols.home
+                        Text("Início")
+                    }
+                
+                TestamentView()
+                    .tabItem {
+                        Text("Bible")
+                    }
+            }
         }
     }
 }
