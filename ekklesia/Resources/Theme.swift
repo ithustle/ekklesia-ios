@@ -9,4 +9,5 @@ import SwiftUI
 
 enum Theme {
     static let accentColor = Color("AccentColor")
+    static let background = Color("Background")
 }

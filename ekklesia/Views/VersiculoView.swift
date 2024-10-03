@@ -16,37 +16,42 @@ struct VersiculoView: View {
     
     var body: some View {
         NavigationStack {
-            VStack(alignment: .leading) {
-                HStack {
-                    Text("Provérbios")
-                        .font(.system(size: 30, weight: .semibold))
-                        .foregroundStyle(Theme.accentColor)
-                        
-                    Spacer()
-                    
-                    Button("Cancelar"){
-                        dismiss()
-                    }
-                    
-                }.padding(.horizontal)
+            ZStack {
+                Theme.background
+                    .ignoresSafeArea()
                 
-                ScrollView {
-                    LazyVGrid(columns: columns, spacing: 5) {
-                        ForEach(captulos, id: \.self){ captulo in
-                            NavigationLink {
-                                ReadVersiculoView()
-                            } label: {
-                                Text("\(captulo)")
-                                    .font(.title)
-                                    .foregroundStyle(.white)
-                                    .frame(width: 120, height: 100)
-                                    .background(Theme.accentColor)
-                                    .clipShape(.rect(cornerRadius: 5))
+                VStack(alignment: .leading) {
+                    HStack {
+                        Text("Provérbios")
+                            .font(.system(size: 30, weight: .semibold))
+                            .foregroundStyle(Theme.accentColor)
+                        
+                        Spacer()
+                        
+                        Button("Cancelar"){
+                            dismiss()
+                        }
+                        
+                    }.padding(.horizontal)
+                    
+                    ScrollView {
+                        LazyVGrid(columns: columns, spacing: 5) {
+                            ForEach(captulos, id: \.self){ captulo in
+                                NavigationLink {
+                                    ReadVersiculoView()
+                                } label: {
+                                    Text("\(captulo)")
+                                        .font(.title)
+                                        .foregroundStyle(.white)
+                                        .frame(width: 120, height: 100)
+                                        .background(Theme.accentColor)
+                                        .clipShape(.rect(cornerRadius: 5))
+                                }
                             }
                         }
                     }
-                }
-            }.navigationBarBackButtonHidden(true)
+                }.navigationBarBackButtonHidden(true)
+            }
         }
     }
 }
