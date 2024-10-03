@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D64D96B02CA978ED00DD92DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D64D96AC2CA978ED00DD92DF /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		99B1CF332CA46E7B009BFD3E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		99B1CF222CA46E79009BFD3E /* ekklesia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ekklesia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B1CF322CA46E7B009BFD3E /* ekklesiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ekklesiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B1CF3C2CA46E7B009BFD3E /* ekklesiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ekklesiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64D96AC2CA978ED00DD92DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -76,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				99B1CF242CA46E79009BFD3E /* ekklesia */,
+				D64D96AC2CA978ED00DD92DF /* Assets.xcassets */,
 				99B1CF352CA46E7B009BFD3E /* ekklesiaTests */,
 				99B1CF3F2CA46E7B009BFD3E /* ekklesiaUITests */,
 				99B1CF232CA46E79009BFD3E /* Products */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D64D96B02CA978ED00DD92DF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
